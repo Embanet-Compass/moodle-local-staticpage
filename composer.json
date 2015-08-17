@@ -1,0 +1,12 @@
+{
+    "name": "embanet-compass/moodle-local-staticpage",
+    "type": "moodle-local",
+    "description": "Local Static Page",
+    "extra": {
+        "installer-name": "staticpage",
+        "moodle": { "package_folder_name" : "staticpage" }
+    },
+    "require" : {
+    	"composer/installers": "~1.0"
+    }
+}
